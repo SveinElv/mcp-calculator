@@ -1,0 +1,13 @@
+[project]
+name = "mcp-calculator"
+version = "0.1.0"
+description = "A simple MCP calculator server"
+requires-python = ">=3.10"
+dependencies = ["mcp"]
+
+[project.scripts]
+mcp-calculator = "server:mcp.run"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
